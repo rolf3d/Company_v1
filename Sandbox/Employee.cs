@@ -2,18 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Sandbox
 {
     class Employee
     {
-        private String name;
-        private int salaryPerMonth;
+        public String name;
+        public int salaryPerMonth;
 
         public Employee(String name, int salaryPerMonth)
         {
             this.name = name;
             this.salaryPerMonth = salaryPerMonth;
+        }
+
+        public Employee()
+        {
+            
         }
 
         public String GetName()
