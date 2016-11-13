@@ -17,10 +17,6 @@ namespace Sandbox
             this.salaryPerMonth = salaryPerMonth;
         }
 
-        public Employee()
-        {
-            
-        }
 
         public String GetName()
         {

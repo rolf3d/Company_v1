@@ -10,16 +10,22 @@ namespace Sandbox
     {
         private string _skill;
 
-        public void SetWorker(string skill)
+
+        public Worker(string skill, string name, int salary) : base(name, salary)
         {
             this._skill = skill;
         }
 
-        public string GetWorker()
+        public void SetSkill(string skill)
+        {
+            this._skill = skill;
+        }
+
+        public string GetSkill()
         {
             return _skill;
         }
 
-
+        
     }
 }
