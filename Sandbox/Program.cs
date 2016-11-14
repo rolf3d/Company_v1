@@ -18,7 +18,7 @@ namespace Sandbox
             Employee person3 = new Employee("Jeppe Nielsen", 520);
             Director direktør1 = new Director("Hansen", 450000);
 
-            List<Employee> ansatte = new List<Employee>() { person1, person2, person3 };
+            List<Employee> ansatte = new List<Employee>() { person1, person2, person3,new Employee("Jeppe", 300) };
 
             //ArrayList theArraryList = new ArrayList() { 12, "brian", ansatte, person1,person2 };
 
